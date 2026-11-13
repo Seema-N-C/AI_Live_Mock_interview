@@ -36,23 +36,6 @@ Select Role → (Upload Resume) → AI asks question → Candidate answers (voic
 ![Architecture](screenshots/architecture.png)
 
 
-
-## Screenshots
-
-### Interview Screen
-
-
-![Interview](screenshots/interview.png)
-
-
-
-### Feedback Report
-
-
-![Feedback](screenshots/feedback.png)
-
-
-
 ## Project Structure
 
 | File | Purpose |
@@ -64,25 +47,6 @@ Select Role → (Upload Resume) → AI asks question → Candidate answers (voic
 | [`report.py`] | Final feedback report |
 | `config.py` | Settings (API keys loaded from `.env`) |
 
-## Installation
-
-```bash
-git clone https://github.com/Seema-N-C/[repo-name].git
-cd [repo-name]
-pip install -r requirements.txt
-```
-
-Create a `.env` file:
-
-```
-API_KEY=your_key_here
-```
-
-Run the app:
-
-```bash
-streamlit run app.py
-```
 
 ## Usage
 
